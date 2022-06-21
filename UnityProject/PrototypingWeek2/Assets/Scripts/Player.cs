@@ -50,11 +50,6 @@ public class Player : MonoBehaviour
         }
     }
 
-    public void UpdateGunText()
-    {
-        UIManager.Instance.currentGunText.text = "Gun: " + gun.gun.name;
-    }
-
     public void ToggleInput()
     {
         disableInput = !disableInput;
