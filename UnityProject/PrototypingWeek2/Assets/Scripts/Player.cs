@@ -14,7 +14,6 @@ public class Player : MonoBehaviour
     {
         motor = GetComponent<CharacterMotion>();
         gun = GetComponentInChildren<GunController>();
-        gun.gunText = UIManager.Instance.currentGunText;
     }
 
     void Start()
